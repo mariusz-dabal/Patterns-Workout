@@ -1,0 +1,20 @@
+objects:
+#  - class:
+#     name: 'Patterns\Creational\DI\TerrainPrototype\TerrainFactory'
+#     arguments:
+#       - inst: 'Patterns\Creational\DI\TerrainPrototype\EarthSea'
+#       - inst: 'Patterns\Creational\DI\TerrainPrototype\MarsPlains'
+#       - inst: 'Patterns\Creational\DI\TerrainPrototype\Forest'
+ - class:
+      name: 'Patterns\Creational\DI\TerrainPrototype\Forest'
+      instance: 'Patterns\Creational\DI\TerrainPrototype\EarthForest'
+ - class:
+      name: 'Patterns\Creational\DI\TerrainPrototype\Sea'
+      instance: 'Patterns\Creational\DI\TerrainPrototype\MarsSea'
+ - class:
+      name: 'Patterns\Creational\DI\TerrainPrototype\Plains'
+      instance: 'Patterns\Creational\DI\TerrainPrototype\EarthPlains'
+ - class:
+      name: 'Patterns\Creational\DI\AppointmentMaker'
+      arguments:
+        - inst: 'Patterns\Creational\DI\BloggsApptEncoder'

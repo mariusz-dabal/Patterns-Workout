@@ -1,0 +1,11 @@
+{
+    "name": "patterns/app",
+    "autoload": {
+        "psr-4": {
+            "Patterns\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/yaml": "*"
+    }
+}
